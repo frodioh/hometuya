@@ -55,7 +55,7 @@ import weakref
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from custom_components.localtuya.const import (  # pylint: disable=import-error
+from custom_components.hometuya.const import (  # pylint: disable=import-error
     PARAMETER_CID,
     PARAMETER_DEV_ID,
     PARAMETER_DP_ID,
@@ -906,7 +906,7 @@ async def connect(
     local_key,
     protocol_version,
     listener=None,
-    port=6668,
+    port=6669,
     timeout=5,
     is_gateway=False,
 ):

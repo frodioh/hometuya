@@ -40,7 +40,7 @@ Devices can be configured in two ways:
 Add the proper entry to your configuration.yaml file. Several example configurations for different device types are provided below. Make sure to save when you are finished editing configuration.yaml.
 
 ```yaml
-localtuya:
+hometuya:
   - host: 192.168.1.x
     device_id: xxxxx
     local_key: xxxxx
@@ -223,7 +223,7 @@ Whenever you write a bug report, it helps tremendously if you include debug logs
 logger:
   default: warning
   logs:
-    custom_components.localtuya: debug
+    custom_components.hometuya: debug
 ```
 
 # Notes:

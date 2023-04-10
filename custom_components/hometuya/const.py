@@ -100,7 +100,7 @@ CONF_STOP_STATUS = "stop_status"
 
 DATA_DISCOVERY = "discovery"
 
-DOMAIN = "localtuya"
+DOMAIN = "hometuya"
 
 # Platforms in this list must support config flows
 PLATFORMS = [
